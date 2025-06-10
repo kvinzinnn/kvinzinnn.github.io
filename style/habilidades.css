@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #2e2e3a, #0a0a1e);
+    color: white;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+  
+  .tituloP {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .habilidades-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1e1e2e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+  .habilidades-box ul {
+    list-style: none;
+  }
+  
+  .habilidades-box li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .habilidades-box i {
+    font-size: 24px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+  }
+  

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #2e2e3a, #0a0a1e);
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 40px 20px 0;
+  text-align: center;
+}
+
+.tituloP {
+  color: white;
+  font-size: 32px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.kvinzinn-img {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.kvinzinn-img img {
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.box {
+  width: 240px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #000;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+.box i {
+  font-size: 26px;
+  margin-bottom: 10px;
+  display: block;
+  color: #2e2e3a;
+}
+
+.box a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.apresentacao {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+}
