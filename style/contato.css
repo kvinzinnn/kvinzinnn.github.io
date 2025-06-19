@@ -6,7 +6,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #2e2e3a, #0a0a1e);
+    background: linear-gradient(to bottom, #f5f1eb, #b6a189);
     color: white;
     padding: 40px 20px;
     min-height: 100vh;
@@ -16,7 +16,7 @@
     text-align: center;
     margin-bottom: 30px;
     font-size: 28px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   .form-container {
@@ -64,6 +64,6 @@
   footer {
     text-align: center;
     margin-top: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   

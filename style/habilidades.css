@@ -6,7 +6,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #2e2e3a, #0a0a1e);
+     background: linear-gradient(to bottom, #f5f1eb, #b6a189); 
     color: white;
     padding: 40px 20px;
     min-height: 100vh;
@@ -16,16 +16,16 @@
     text-align: center;
     margin-bottom: 30px;
     font-size: 28px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   .habilidades-box {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #1e1e2e;
+    background-color: #5e4b3c;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px #5e4b3c;
   }
   
   .habilidades-box ul {
@@ -48,5 +48,14 @@
     text-align: center;
     margin-top: 40px;
     color: white;
+    background-color: #5e4b3c;
+    padding: 20px;
+    border-radius: 15px;  
+    box-shadow: 0 0 15px #5e4b3c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
   }
   
